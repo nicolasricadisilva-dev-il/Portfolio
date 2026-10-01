@@ -1,0 +1,16 @@
+h1{ 
+    text-align: center;
+    color: gold;
+    background-color: black ;
+}
+p,a,button{
+    background-color: black;
+    color: gold;
+    width: 150px;
+    text-align: center;
+}
+button{
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+}
