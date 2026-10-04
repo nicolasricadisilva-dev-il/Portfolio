@@ -11,6 +11,6 @@ function parouimpar(){
 
     }
     else{
-        alert("O Nuúmero é impar");
+        alert("O Número é impar");
     }
 }
