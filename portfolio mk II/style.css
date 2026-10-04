@@ -1,0 +1,29 @@
+body {
+    padding: 10px;
+    background-image:url(image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    color: gold;
+    background-color: black;
+}
+p, a , button{
+    background-color: black;
+    color: gold;
+    width: 350px;
+    text-align: center;
+    transition: 0.5s;
+    transform:scale(1*2);
+;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 150px;
+    padding: 15px;
+}
