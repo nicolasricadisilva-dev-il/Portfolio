@@ -27,3 +27,10 @@ button{
     border-radius: 150px;
     padding: 15px;
 }
+button:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    color: silver;
+    background-color: rgb(0, 35, 209);
+    border-radius: 10px;
+}
