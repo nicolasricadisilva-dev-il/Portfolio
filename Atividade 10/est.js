@@ -8,13 +8,13 @@ function estacao() {
     if (mes == 'DEZEMBRO' || mes == 'JANEIRO' || mes == 'FEVEREIRO' || mes == 'MARÇO') {
         mostrar.innerHTML = `<p>É Verão</p>`;
     }
-    else if (mes == 'ABRIL' || mes == 'MAIO' || mes == 'JUNHO') {
+     if (mes == 'ABRIL' || mes == 'MAIO' || mes == 'JUNHO') {
         mostrar.innerHTML = `<p>É Outono</p>`;
     }
-    else if (mes == 'JULHO' || mes == 'AGOSTO' || mes == 'SETEMBRO') {
+    if (mes == 'JULHO' || mes == 'AGOSTO' || mes == 'SETEMBRO') {
         mostrar.innerHTML = `<p>É Inverno</p>`;
     }
-    else if (mes == 'OUTUBRO' || mes == 'NOVEMBRO') {
+    if (mes == 'OUTUBRO' || mes == 'NOVEMBRO') {
         mostrar.innerHTML = `<p>É Primavera</p>`;
     }
     else {
