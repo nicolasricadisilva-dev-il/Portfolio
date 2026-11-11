@@ -7,4 +7,8 @@ function contar(){
         cont++;
     }
     saida.innerHTML += `<p>&#x1F3C1<p>`
+    if (cont % 2 == 0) {
+        `<p> <mark>$(cont)</p>`
+        
+    }
 }
